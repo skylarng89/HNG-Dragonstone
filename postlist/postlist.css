@@ -1,0 +1,46 @@
+body {
+	font-size: 15px;
+	line-height: 1.5;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.publish {
+	float: right;
+}
+
+li {
+	float: left;
+	text-decoration: bold;
+}
+
+button {
+	margin-top: -48px;
+  background-color: white; 
+  color: #FFFF00; 
+  border: 2px solid #FFFF00;
+  height: 30px;
+}
+
+.navbar {
+	margin-bottom: 5%;
+}
