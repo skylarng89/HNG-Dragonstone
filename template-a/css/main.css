@@ -401,7 +401,7 @@ img {
 }
 
 .bio {
-    width: 219px;
+    width: 211px;
     height: 68px;
     position: absolute;
     top: 120px;
@@ -422,20 +422,14 @@ img {
     line-height: 15px;
 }
 
-.twitter {
+.socials a {
     display: inline;
     color: #F9CE21;
     text-decoration: none;
 }
 
-.medium {
+.socials a:hover {
     display: inline;
     color: #F9CE21;
-    text-decoration: none;
-}
-
-.github {
-    display: inline;
-    color: #F9CE21;
-    text-decoration: none;
+    text-decoration: underline;
 }
