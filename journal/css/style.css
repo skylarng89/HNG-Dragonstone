@@ -169,3 +169,162 @@ main {
 .grey-icon {
     color: #777;
 }
+
+
+
+  background:#f4f4f4;
+}
+
+input{
+  color: #f4f4f4;
+
+}
+
+.container{
+  margin:auto;
+  overflow: hidden;
+width :80%;
+
+}
+
+
+
+.main-color-bg{
+  background-color: black !important;
+  border-color: black!important;
+  color:#ffffff !important;
+}
+
+
+
+
+
+
+
+.panel-heading{
+  background-color: white;
+  height: 30px;
+color:black;
+  margin-left: 140px;
+  margin-right: -140px;
+  border-radius: 1%;
+} 
+
+.panel-title{
+  margin-left: 30px;
+  font-family: sans-serif;
+ font-size: 20px;
+  padding-top: 5px;
+
+}
+
+.row{
+  padding-top: 30px;
+}
+
+.panel-body{
+   background-color: white;
+   margin-left: 140px;
+   margin-right: -140px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 20px;
+   padding-bottom:  20px;
+   border-left: 1px solid  grey;
+   border-right: 1px solid  grey;
+   border-bottom: 1px solid  grey;
+   border-radius: -1%;
+
+
+}
+
+.col-md-7{
+
+  margin-right: 35%;
+  margin-left: 25%;
+} 
+
+.form-group{
+  padding:  15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+
+}
+
+
+
+.form-control{
+  border: 1px solid #f4f4f4;
+  width: 100%;
+  height: 35px;
+}
+
+.btn{
+  margin-left: 25px;
+  height: 33px;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.btn-default{
+    background-color: white;
+    color: black;
+    border: 1px grey solid;
+    border-radius: 1%;
+    
+    margin-right:  10px;
+    margin-left:  10px;
+
+}
+
+
+
+
+.well{
+  background-color: #f4f4f4;
+  border-radius: 2%;
+  padding-top: 10px;
+  margin-right: -20px;
+  margin-left: -20px;
+  border: 1px solid  grey;
+}
+
+/* Footer */
+#footer{
+  margin-top: -70px;
+  color:#ffffff;
+  text-align:center;
+  padding:30px;
+
+}
+
+#footer{
+  height: 3vh;
+  margin-left: 320px;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+#footer ul{
+  margin: 0;
+  padding: 0;
+  
+}
+
+#footer li{
+  list-style: none;
+  display: inline;
+
+}
+
+#footer a{
+  text-decoration: none;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: grey;
+  padding-top: 9px;
+  
+  
+}
