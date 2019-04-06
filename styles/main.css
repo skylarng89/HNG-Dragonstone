@@ -1,0 +1,79 @@
+.about {
+    position: relative;
+    left: 170px;
+    top: -20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.name {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+
+.bio>p {
+    word-break: break-all;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #111111;
+    /* height: 68px; */
+}
+
+.bio {
+    width: 219px;
+    height: 68px;
+    position: absolute;
+    top: 120px;
+}
+
+.socials {
+    position: relative;
+    top: 180px;
+    margin-left: 30px;
+}
+
+.socials p {
+    display: inline;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.twitter {
+    display: inline;
+    color: #F9CE21;
+    text-decoration: none;
+}
+
+.medium {
+    display: inline;
+    color: #F9CE21;
+    text-decoration: none;
+}
+
+.github {
+    display: inline;
+    color: #F9CE21;
+    text-decoration: none;
+}
