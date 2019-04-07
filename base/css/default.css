@@ -1,0 +1,50 @@
+:root {
+  --grey: #f2f2f2;
+  --black: #212529;
+  --blue: #0c7c76;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-header {
+  width: 100%;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 100%;
+}
+.profile-pic-area {
+  width: 50%;
+}
+.side-info {
+  background-color: var(--grey);
+}
+.nav-link {
+  color: var(--black);
+  font-weight: 400;
+}
+.nav-link:hover {
+  font-weight: bold;
+  color: var(--black);
+}
+.follow-icons {
+  width: 100%;
+  margin-top: 400px; /* Change Margin to suit your work */
+}
+.social {
+  font-weight: bolder;
+  font-size: 36px;
+  padding-right: 15px;
+  color: var(--blue);
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .side-info {
+    display: none;
+  }
+}
