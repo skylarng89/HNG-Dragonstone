@@ -1,0 +1,141 @@
+@import url("default.css");
+
+.blues {
+  color: var(--blue);
+}
+/* .side-down {
+  margin: 10rem auto 2rem;
+} */
+/* Contact section */
+
+.form-area {
+  width: 90%;
+  background-color: var(--grey);
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.form-group {
+  margin: 30px 0;
+}
+
+.form-control {
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.btn-submit {
+  background-color: var(--blue);
+  color: white;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  color: white;
+}
+
+/* Authentication Area */
+.oauth-btn-size {
+  max-width: 350px;
+  width: 100%;
+}
+
+.oauth-area {
+  background-color: var(--grey);
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 60%;
+  margin: 6rem auto;
+  padding: 6rem 5rem 1rem;
+}
+
+.greetings-sub {
+  font-weight: 500;
+}
+
+.social-buttons {
+  margin: 50px 0;
+}
+
+.btn-google {
+  background: white url("../images/goo.png") 30% center no-repeat;
+  color: grey;
+  border: 1px solid red;
+}
+
+.btn-facebook {
+  background: #3b5998 url("../images/facebook.png") 30% center no-repeat;
+  color: white;
+}
+
+.btn-facebook:hover {
+  background-color: #2b406e;
+  color: white;
+}
+
+.copyright {
+  color: #bfbfbf;
+}
+
+/* Timeline */
+.timeline {
+  padding: 1rem;
+}
+.post-image {
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+  border-radius: 6px;
+}
+.post-footer a {
+  text-decoration: underline;
+  color: var(--blue);
+}
+/* Mobile style */
+@media (max-width: 1200px) {
+  .timeline {
+    padding: 0;
+  }
+  .timeline-posts {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767.98px) {
+  .post-image-area img {
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+  }
+  .timeline-area {
+    width: 100%;
+  }
+  .timeline-posts {
+    width: 100%;
+  }
+
+  .contact-section {
+    margin: 10px auto;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .follow-icons {
+    margin-top: 200px;
+  }
+
+  .btn-google,
+  .btn-facebook {
+    background-position: 10% center;
+  }
+}
+
+@media (max-width: 576px) {
+  .oauth-area {
+    width: 80%;
+  }
+}

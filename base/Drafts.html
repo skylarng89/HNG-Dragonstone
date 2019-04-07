@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/drafts.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="toggle" id="toggle">
+        <img src="images/icons8-menu-64.png" style="display:none; margin: 1rem 0 0 1rem;" alt="Drafts">
+    </div>
+    <div class="sideBar sideBar-mobile" id="side-nav">
+        <div id="close-button" style="text-align: right;margin-right: -20px;">
+            <img src="images/icons8-cancel-50.png" alt="">
+        </div>
+        <div class="draft" style="padding-top: 5px;">
+            <h1>Drafts</h1>
+        </div>
+        <div class="newpost">
+            <a href="#"><button type="button" class="btn btn-sm shadow-sm"
+                    style="background-color: #ffffff;color: black ;margin-top: 1.5rem">New post</button></a>
+        </div>
+        <div class="sidetags" style="margin-top: 5rem;">
+            <h5>Tags</h5>
+            <ul style="list-style:none; padding-left: 0;">
+                <h5><span class="badge badge-secondary">Javascript</span></h5>
+                <h5><span class="badge badge-secondary">Tech</span></h5>
+                <h5><span class="badge badge-secondary">Hotels</span></h5>
+            </ul>
+        </div>
+    </div>
+    <div class="sideBar sideBar-desktop">
+        <div class="draft">
+            <h1>Drafts</h1>
+        </div>
+        <div class="newpost">
+            <button type="button" class="btn btn-sm shadow-sm"
+                style="background-color: #ffffff;color: black ;margin-top: 1.5rem">New post</button>
+        </div>
+        <div class="sidetags" style="margin-top: 5rem;">
+            <h5>Tags</h5>
+            <ul style="list-style:none; padding-left: 0;">
+                <h5><span class="badge badge-secondary">Javascript</span></h5>
+                <h5><span class="badge badge-secondary">Tech</span></h5>
+                <h5><span class="badge badge-secondary">Hotels</span></h5>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container content-card">
+        <div class="align-top card shadow" style="background-color: #f7f7f7; border: none;">
+            <div class="card-body">
+                <div class="align-top side-img">
+                    <img class="sideimg" src="images/close-up-fresh-freshness-1964869.jpg" height="82" width="120"
+                        style="border-radius: 8px;" alt="">
+                </div>
+                <div class="card-content">
+                    <h5 class="card-title ">Shaku shaku and Zanku - origin</h5>
+                    <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur...
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nesciunt, nihil delectus quae
+                        quaerat dolor et libero! Reprehenderit?</p>
+                    <div class="tags" style="display: block;">
+                        <h5><span class="badge badge-secondary">Javascript</span></h5>
+                        <h5><span class="badge badge-secondary">Tech</span></h5>
+                        <h5><span class="badge badge-secondary">Hotels</span></h5>
+                        <h6><img src="images/icons8-trash-32.png" height="25" alt=""></h6>
+                        <h6><img src="images/icons8-edit-24.png" alt=""></h6>
+                    </div>
+                    <div class="showDate">
+                        <h6>3rd,April 2019</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $("#side-nav").css("margin-left", "0");
+            });
+            $("#side-nav").click(function () {
+                $("#side-nav").css("margin-left", "-40%");
+            });
+        });
+    </script>
+</body>
+
+</html>
