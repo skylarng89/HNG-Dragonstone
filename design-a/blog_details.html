@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog Details</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style>
+		body{
+			width: 100%;
+			margin: auto;
+			font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			width: 90%;
+			margin: auto;
+		}
+		.comment_container{
+			display: flex;
+			flex-direction: row;
+			width: 90%;
+			margin: 25px auto;
+			/*margin-top: 25px;*/
+		}
+		#culture_image{
+			height: 420px;
+		}
+		#blog_post{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		#first_post{
+			width: 100%;
+		}
+		#image_post{
+			width: 55%
+		}
+		#second_post{
+			width: 40%;
+			margin-left: 5%;
+		}
+		ul{
+			list-style: none;
+			display: block;
+		}
+		.fa-heart{
+			color: red;
+		}
+		.comment_icons{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 15px;
+		}
+		.span_icons{
+			margin-right: 20px;
+		}
+		.r_items{
+			background-color: #AECDEE;
+			padding: 8px 18px;
+			border-radius: 5px;
+			color: black;
+			margin-right: 12px;
+		}
+		.related_items{
+			margin-top: 25px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.toggle_posts{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			background-color: #F8F8F8;
+			width: 100%;
+			margin-top: 10px;
+			padding: 15px 0;
+		}
+		.posted_comments{
+			width: 60%;
+		}
+		.post_area{
+			width: 70%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>Homepage</p>
+		<h1>The Effect of Culture on Design Trends</h1>
+		<p><i class="far fa-calendar-alt"></i> 7th April, 2019</p>
+		<div id="culture_image">
+			<img src="http://placeimg.com/940/420/any" alt="culture image">
+		</div>
+		<div id="blog_post">
+			<p id="first_post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<img id="image_post" src="http://placeimg.com/769/420/any" alt="laptop picture">
+			<p id="second_post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Post"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="comment_icons">
+			<div>
+				<span class="span_icons"><i class="fas fa-heart"></i>  21</span>
+				<span class="span_icons"><i class="far fa-comment-dots"></i>  22</span>
+			</div>
+			<div>Subscribe <i class="fas fa-rss"></i></div>
+		</div>
+		<div class="related_items">
+			<a class="r_items" href="">Javascript</a>
+			<a class="r_items" href="">Tech</a>
+			<a class="r_items" href="">Hotels</a>
+		</div>
+	</div> <br>
+	<div class="toggle_posts">
+			<a href=""><i class="fas fa-angle-double-left"></i> Previous Post</a>
+			<a href="">Next Post <i class="fas fa-angle-double-right"></i></a>
+	</div>
+	<div class="comment_container">
+		<img src="" alt="picture_id">
+		<div class="posted_comments">
+			<p>Mike Ramanjago</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur</p>
+			<i class="fas fa-heart span_icons"></i>
+		</div>
+	</div>
+	<div class="comment_container">
+		<img src="" alt="picture_id">
+		<div class="posted_comments">
+			<p>Mike Ramanjago</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur</p>
+			<i class="fas fa-heart span_icons"></i>
+		</div>
+	</div>
+	<div class="comment_container">
+		<img src="" alt="picture_id">
+		<div class="posted_comments">
+			<p>Mike Ramanjago</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur</p>
+			<i class="fas fa-heart"></i>
+		</div>
+	</div>
+	<div class="container">
+		<textarea class="post_area" placeholder = "Comments" rows="4" cols="50" name="comment" form="usrform"></textarea> <br>
+		<form action="/action_page.php" id="usrform">
+  			<input type="submit" value="Publish">
+		</form>
+		<br>
+	</div>
+
+</body>
+</html>
