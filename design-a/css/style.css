@@ -1,5 +1,13 @@
 @import url("default.css");
 
+.blues {
+  color: var(--blue);
+}
+
+/* .side-down {
+  margin: 10rem auto 2rem;
+} */
+/* Contact section */
 /* Contact section */
 
 .form-area {
@@ -74,32 +82,75 @@
   color: #bfbfbf;
 }
 
+/* Timeline */
+.timeline {
+  padding: 1rem;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.post-footer a {
+  text-decoration: underline;
+  color: var(--blue);
+}
+
 /* Mobile style */
+@media (max-width: 1200px) {
+  .timeline {
+    padding: 0;
+  }
+
+  .timeline-posts {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 767.98px) {
-  .image-header {
-    height: 150px;
+  .post-image-area img {
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
   }
 
-  .contact-section {
-    margin: 10px auto;
+  .timeline-area {
+    width: 100%;
   }
 
-  .contact-form {
-    width: 80%;
+  .timeline-posts {
+    width: 100%;
   }
 
-  .follow-icons {
-    margin-top: 200px;
+  /* Mobile style */
+  @media (max-width: 767.98px) {
+    .image-header {
+      height: 150px;
+    }
+
+    .contact-section {
+      margin: 10px auto;
+    }
+
+    .contact-form {
+      width: 80%;
+    }
+
+    .follow-icons {
+      margin-top: 200px;
+    }
+
+    .btn-google,
+    .btn-facebook {
+      background-position: 10% center;
+    }
   }
 
-  .btn-google,
-  .btn-facebook {
-    background-position: 10% center;
+  @media (max-width: 576px) {
+    .oauth-area {
+      width: 80%;
+    }
   }
-}
-
-@media (max-width: 576px) {
-  .oauth-area {
-    width: 80%;
-  }
-}
