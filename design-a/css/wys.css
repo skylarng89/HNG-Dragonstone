@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    position: absolute;
+    width: 939px;
+    height: 528px;
+    left: 200px;
+    top: 94px;
+    background: #FFFFFF;
+    border: 1px solid #939393;
+    box-sizing: border-box;
+}
+
+.text-tools {
+    position: relative;
+    width: 939px;
+    height: 35px;
+    left: 200px;
+    top: 37px;
+    padding-bottom: 10px;
+    background: rgba(196, 196, 196, 0.32);
+}
+
+.H>p {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: normal;
+    color: #000000;
+    position: absolute;
+    left: 48px;
+    /* bottom: 0.5px; */
+}
+
+.B>p {
+    position: absolute;
+    left: 82px;
+    /* bottom: 33px; */
+    font-family: Open Sans;
+    font-size: 18px;
+    /* line-height: normal; */
+    color: #000000;
+    font-weight: bold;
+}
+
+.italic {
+    position: absolute;
+    left: 114px;
+    top: 19px;
+}
+
+.s {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.A {
+    position: absolute;
+    left: 184px;
+    top: 13px;
+}
+
+div.line1 {
+    position: absolute;
+    left: 212px;
+    top: 8px;
+    height: 32px;
+    border: 0.5px solid #333;
+}
+
+div.line2 {
+    position: absolute;
+    left: 347px;
+    top: 8px;
+    height: 32px;
+    border: 0.5px solid #333;
+}
+
+div.line3 {
+    position: absolute;
+    left: 503px;
+    top: 8px;
+    height: 32px;
+    border: 0.5px solid #333;
+}
+
+div.line4 {
+    position: absolute;
+    left: 640px;
+    top: 8px;
+    height: 32px;
+    border: 0.5px solid #333;
+}
+
+.list1 {
+    position: absolute;
+    left: 222px;
+    bottom: 18px;
+    /* top: 1px; */
+}
+
+.list2 {
+    position: absolute;
+    left: 252px;
+    top: 20px;
+}
+
+.quote {
+    position: absolute;
+    left: 292px;
+    top: 20px;
+}
+
+.check {
+    position: absolute;
+    left: 320px;
+    top: 20px;
+}
+
+.film {
+    position: absolute;
+    left: 371px;
+    top: 20px;
+}
+
+.image {
+    position: absolute;
+    left: 408px;
+    top: 20px;
+}
+
+.link {
+    position: absolute;
+    left: 441px;
+    top: 20px;
+}
+
+.grid {
+    position: absolute;
+    left: 475px;
+    top: 20px;
+}
+
+.code {
+    position: absolute;
+    left: 540px;
+    top: 17px;
+}
+
+.CB {
+    position: absolute;
+    left: 579px;
+    top: 3px;
+}
+
+.SO {
+    position: absolute;
+    left: 677px;
+    top: 3px;
+}
+
+.text {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.seperate {
+    position: absolute;
+    left: 637px;
+    bottom: 0.3px;
+    height: 524px;
+    border: 1px solid #939393;
+}
+
+.dragonstone {
+    position: absolute;
+    bottom: 449px;
+    left: 677px;
+    font-family: Open Sans;
+    font-size: 24px;
+    line-height: normal;
+    color: #000000;
+}
+
+.publish {
+    background: #0c767cfc;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.cancel {
+    background: #F14336;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.button-w {
+    position: absolute;
+    top: 630px;
+    left: 906px;
+}
