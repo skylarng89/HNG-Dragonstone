@@ -1,79 +1,75 @@
-.about {
-    position: relative;
-    left: 170px;
-    top: -20px;
+.profile__wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
 }
-
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    left: 70px;
+.side__div {
+    width: 30%;
+    text-align: center;
 }
-
-.name {
-    position: absolute;
-    top: 90px;
-    left: 30px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
+.content__body{
+    width: 70%;
+}
+.profile__img img {
+    width: 90px;
+    border-radius: 50px;
+}
+.user__info{
+    display: grid;
+}
+.navigate__link {
+    display: grid;
+    padding-top: 2.5em;
     font-size: 18px;
-    line-height: 22px;
-    color: #111111;
 }
-
-.bio>p {
-    word-break: break-all;
+.nav__link__name{
+    margin-bottom: 20px;
+}
+.content__body__top{
+    margin-left: 10.5em;
+}
+.content__main__body{
+    margin-left: 2em;
+    border-left: 2px solid #aca3a3;
+    padding-left: 8.5em;
+}
+.social__media__icon {
+    margin-left: 2em;
     text-align: center;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #111111;
-    /* height: 68px; */
+    color: #0e777e;
+    padding-top: 2em;
 }
-
-.bio {
-    width: 219px;
-    height: 68px;
-    position: absolute;
-    top: 120px;
+.social__media__icon i{
+    margin: 5px;
+    font-size: 30px;
 }
-
-.socials {
-    position: relative;
-    top: 180px;
-    margin-left: 30px;
+.read__more{
+    color: #0e777e;
 }
-
-.socials p {
-    display: inline;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
+.newsletter__sub__div {
+    margin-left: 2em;
+    margin-top: 3em;
 }
-
-.twitter {
-    display: inline;
-    color: #F9CE21;
-    text-decoration: none;
+.subscribe{
+    font-weight: 700;
 }
-
-.medium {
-    display: inline;
-    color: #F9CE21;
-    text-decoration: none;
+.sub__email__form input{
+    width: 40%;
+    color: #a9a1a1;
+    background: #edebeb;
+    border: none;
+    height: 30px;
 }
-
-.github {
-    display: inline;
-    color: #F9CE21;
-    text-decoration: none;
+.sub__email__form button{
+    margin-left: -5px;
+    background: #0e777e;
+    color: white;
+    height: 30px;
+    border: none;
+    width: 12%;
+}
+.user__qualification{
+    font-weight: 600;
+    margin-bottom: 1em;
 }
