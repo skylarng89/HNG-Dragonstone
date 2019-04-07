@@ -14,70 +14,26 @@
 </head>
 
 <body>
-    <div class="profile__wrapper">
-        <div class="side__div">
-            <div class="profile__img">
-                <img src="./images/avatar.jpg" alt="">
-            </div>
-            <div class="profile__info">
-                <div class="user__info">
-                    <h2>Chukwu Ebuka</h2>
-                    <span class="user__qualification"> UX Designer | Product Designer | Frontend Newbie </span>
-                    <span class="about__user">I’m kinda weird in a very good way.... I design for survival</span>
-                </div>
-                <div class="navigate__link">
-                    <span class="nav__link__name">Draft</span>
-                    <span class="nav__link__name">My blogs</span>
-                    <span class="nav__link__name">Insight</span>
-                    <span class="nav__link__name">Settings</span>
-                </div>
+    <div class="settings__wrapper">
+        <div class="side__bar">
+            <h3>Homepage</h3>
+            <div class="sidebar__nav__div">
+                <span class="side__bar__nav">Profile</span>
+                <span class="side__bar__nav" id="active__nav">Themes</span>
             </div>
         </div>
-        <div class="content__body">
-            <div class="content__body__top">
-                <h2>Hey!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sequi modi cum optio eveniet? Eligendi libero iure vitae recusandae quod. Corporis cumque esse,
-                     eum non accusamus laborum vitae est quae excepturi!</p>
+        <div class="setting__body">
+            <h2>Settings</h2>
+            <span>Theme</span>
+            <select name="theme" id="theme__select">
+                <option value="">DragonBlade Silver Supreme 2000</option>
+            </select>
+            <span>Mode</span>
+            <div class="switch__div">
+                <i class="fas fa-toggle-on"></i>
+                <span> Lori Lightfoot </span>
             </div>
-            <div class="content__main__body">
-                <div>
-                    <h3>Ui/Ux</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos adipisci explicabo reprehenderit aliquam, voluptate porro beatae provident.
-                         Veritatis quibusdam maxime nisi
-                         fugit fugiat tenetur voluptatum, omnis error molestias facere.
-                    </p>
-                    <span class="read__more">Read More</span>
-                </div>
-                <div>
-                    <h3>Wireframing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos adipisci explicabo reprehenderit aliquam, voluptate porro beatae provident.
-                         Veritatis quibusdam maxime nisi
-                         fugit fugiat tenetur voluptatum, omnis error molestias facere.
-                    </p>
-                    <span class="read__more">Read More</span>
-                </div>
-                <div>
-                    <h3>Prototyping</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eos adipisci explicabo reprehenderit aliquam, voluptate porro beatae provident.
-                         Veritatis quibusdam maxime nisi
-                         fugit fugiat tenetur voluptatum, omnis error molestias facere.
-                    </p>
-                    <span class="read__more">Read More</span>
-                </div>
-            </div>
-            <div class="social__media__icon">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-dribbble"></i>
-                    <i class="fab fa-twitter"></i>
-            </div>
-            <div class="newsletter__sub__div">
-                <span class="subscribe">Subscribe to my newsletters</span>
-                <div class="sub__email__form">
-                    <input type="text" placeholder="Email Address">
-                    <button>submit</button>
-                </div>
-            </div>
+            <button class="save__changes__btn">Save Changes</button>
         </div>
     </div>
 </body>
