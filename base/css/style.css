@@ -81,11 +81,19 @@
 .post-text {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   border: 0;
-  opacity: 0;
+  background: var(--grey);
   outline: none;
   color: #cccccc;
+  resize: none;
 }
-
+.post-box ::placeholder {
+  color: #cccccc;
+}
+.post-text:focus {
+  outline: none;
+  background: var(--grey);
+  border: 0;
+}
 .btn-publish {
   background: var(--blue);
   color: white;
