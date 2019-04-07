@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .form-control{width: 150px; border-radius: 0px; background-color: whitesmoke; border: 1px solid  whitesmoke; box-shadow: none;}
+        .settings-titles{margin-top: 30px; margin-left: 4vh; font-size: 16px;}
+        .settings-header{margin-top: 30px; margin-left: 1.0vw; font-size: 28px;}
+        .settings-grid{margin-top: 30px; margin-left: 1.0vw;}
+        .form-group{margin-top: 30px;}
+        .btn{margin-top: 20px;border-radius: 0px; background-color: Blue; color: white;}
+        .img-btn{margin-left: 10vw;}
+        .settings-titles-grid{background-color:  whitesmoke; height: 150vh;}
+        .profile-image-circle{margin-top: 30px; background-color:  whitesmoke; width: 150px; height: 150px; border-radius: 150px;}
+        body{background-color: white;}
+        .navbar{margin-bottom: 0px; border-radius: 0px; background-color: midnightblue;}
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">HNG-PROJECT BLOG</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Timeline</a></li>
+                            <li><a href="#">RSS feeds</a></li>
+                            <li><a href="#">Drafts</a></li>
+                            <li><a href="#">Editor</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="active" href="#">Profile Settings</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 settings-titles-grid">
+                <div class="settings-titles">Homepage</div>
+                <div class="settings-titles">Profile</div>
+            </div>
+
+            <div class="col-xs-8 edit-grid">
+                <div class="settings-header">Settings</div>
+                <div class="profile-image-circle">
+                        <img src="" alt="" class="profile-image">
+                </div>
+                <div><button class="btn img-btn" type="submit">Update</button></div>
+                <form class="settings-grid">
+                    <div class="form-group">
+                        <label for="usr">First Name</label>
+                        <input type="text" class="form-control" id="usr" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="usr">Last Name</label>
+                        <input type="text" class="form-control" id="usr" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Set Password</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="sel">Language</label>
+                        <select class="form-control" id="sel">
+                            <option>EN</option>
+                            <option>EN(US)</option>
+                            <option>SP</option>
+                            <option>CH</option>
+                        </select>
+                    </div>
+                    <div class="input-group-btn">
+                        <button class="btn" type="submit">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="profile_settings.js"></script>
+</body>
+</html>
