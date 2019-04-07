@@ -75,6 +75,22 @@
   background-color: #2b406e;
   color: white;
 }
+.post-box {
+  background-color: var(--grey);
+}
+.post-text {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  border: 0;
+  opacity: 0;
+  outline: none;
+  color: #cccccc;
+}
+
+.btn-publish {
+  background: var(--blue);
+  color: white;
+  font-weight: bold;
+}
 
 .copyright {
   color: #bfbfbf;
